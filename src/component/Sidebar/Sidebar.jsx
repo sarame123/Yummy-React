@@ -12,8 +12,7 @@ export default function Sidebar() {
   
   
     function change(){
-      let left=window.getComputedStyle(sideBar.current)
-    .getPropertyValue("left") 
+      let left=window.getComputedStyle(sideBar.current).getPropertyValue("left") 
     console.log(left);
     if(left=="0px"){
       closeSidebar();

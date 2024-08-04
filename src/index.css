@@ -7,6 +7,7 @@
 body{
     background-color: var(--black);
     color: var(--white);
+    
 }
 a:hover{
     text-decoration: none;
@@ -14,9 +15,10 @@ a:hover{
 .poiinter{
     cursor:pointer
 }
-.fit-content{
+
+/* .fit-content{
     width: fit-content;
-}
+} */
 .form-control:focus{
     border-color: none;
     box-shadow: none;
