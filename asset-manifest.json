@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Yummy-React/static/css/main.ae01f2ae.css",
-    "main.js": "/Yummy-React/static/js/main.440b1e6a.js",
+    "main.js": "/Yummy-React/static/js/main.8cdda1c6.js",
     "static/js/787.3eecfc5e.chunk.js": "/Yummy-React/static/js/787.3eecfc5e.chunk.js",
     "static/media/fa-solid-900.ttf": "/Yummy-React/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
     "static/media/fa-brands-400.ttf": "/Yummy-React/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
@@ -14,11 +14,11 @@
     "static/media/fa-v4compatibility.woff2": "/Yummy-React/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
     "index.html": "/Yummy-React/index.html",
     "main.ae01f2ae.css.map": "/Yummy-React/static/css/main.ae01f2ae.css.map",
-    "main.440b1e6a.js.map": "/Yummy-React/static/js/main.440b1e6a.js.map",
+    "main.8cdda1c6.js.map": "/Yummy-React/static/js/main.8cdda1c6.js.map",
     "787.3eecfc5e.chunk.js.map": "/Yummy-React/static/js/787.3eecfc5e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ae01f2ae.css",
-    "static/js/main.440b1e6a.js"
+    "static/js/main.8cdda1c6.js"
   ]
 }
