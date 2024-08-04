@@ -1,7 +1,7 @@
 import React from 'react'
-import {style} from './Contact.module.css'
 import { useFormik } from 'formik'
-import  * as Yup  from "yup" 
+import  * as Yup  from "yup" ;
+import style from "../Contact/Contact.module.css"
 
 export default function Contact() {
   function submitfn(values){
@@ -32,17 +32,17 @@ let validation=Yup.object({
  
   return (
    <>
-   <form action="" onSubmit={formik.handleSubmit}>
+   <form action="" onSubmit={formik.handleSubmit} className={style.inputs}>
     <div class="container text-white   mt-3 w-75"  >
       <div class="row py-4" >
-            <div class="col-6">
+            <div class="col-md-6 ">
              
               <input type="text" name="name" id="name" class="form-control name" value={formik.values.name} onBlur={formik.handleBlur} onChange={formik.handleChange}  placeholder="Enter Your Name"/>
               {formik.errors.name && formik.touched.name ? <div className="alert alert-danger p-2">
             {formik.errors.name}
           </div> : ""}
             </div>
-            <div class="col-6">
+            <div class="col-md-6">
               <input type="email"  name="email" id="email" class="form-control" value={formik.values.email} onBlur={formik.handleBlur} onChange={formik.handleChange}  placeholder="Enter Your Email"/>
               {formik.errors.email && formik.touched.email ? <div className="alert alert-danger p-2">
             {formik.errors.email}
@@ -50,13 +50,13 @@ let validation=Yup.object({
             </div>
       </div>
       <div class="row py-4" >
-        <div class="col-6">
+        <div class="col-md-6">
           <input type="tel" name="phone" id="phone" class="form-control" value={formik.values.phone} onBlur={formik.handleBlur} onChange={formik.handleChange}  placeholder="Enter Your phone"/>
           {formik.errors.phone && formik.touched.phone ? <div className="alert alert-danger p-2">
             {formik.errors.phone}
           </div> : ""}
         </div>
-        <div class="col-6">
+        <div class="col-md-6">
           <input type="number"  name="age" id="age" class="form-control" value={formik.values.age} onBlur={formik.handleBlur} onChange={formik.handleChange}  placeholder="Enter Your Age"/>
           {formik.errors.age && formik.touched.age? <div className="alert alert-danger p-2">
               {formik.errors.age}
@@ -64,13 +64,13 @@ let validation=Yup.object({
         </div>
         </div>
         <div class="row py-4" >
-          <div class="col-6">
+          <div class="col-md-6">
             <input type="password" name="password" id="pass" class="form-control" value={formik.values.password} onBlur={formik.handleBlur} onChange={formik.handleChange}  placeholder="Enter Your Password"/>
             {formik.errors.password && formik.touched.password? <div className="alert alert-danger p-2">
               {formik.errors.password}
           </div>:""}
           </div>
-          <div class="col-6">
+          <div class="col-md-6">
             <input type="password"  name="rePaassword" id="rePaassword" class="form-control" placeholder="RePassword"  value={formik.values.rePaassword} onChange={formik.handleChange} onBlur={formik.handleBlur}/>
             {formik.errors.rePaassword && formik.touched.rePaassword? <div className="alert alert-danger p-2">
               {formik.errors.rePaassword}

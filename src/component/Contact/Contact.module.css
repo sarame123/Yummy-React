@@ -1,1 +1,17 @@
-.Contact {}
+@media screen and (min-width: 0px) and (max-width: 600px) {
+
+    .inputs input{
+        width: 100%;
+        margin-top:2rem;
+    }
+}
+
+/* sm */
+
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    .inputs input{
+        width: 100%;
+        margin-top:2rem;
+    }
+ 
+}
